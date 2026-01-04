@@ -64,12 +64,13 @@ public class ATM {
                     showMenu(user);
                     return;
                 }
-                attempts --;
-                System.out.println("Wrong PIN, Attempts left "+attempts);
+                
             }
-            System.out.println("Card Block");
-
+            attempts --;
+                System.out.println("Wrong PIN, Attempts left "+attempts);
+        
         }
+        System.out.println("Card Block");
 
     }
     void showMenu(User user){
